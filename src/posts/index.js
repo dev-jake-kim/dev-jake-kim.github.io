@@ -1,3 +1,4 @@
+import { componentExamplesPost } from './component-examples'
 import { postEntries } from '../data/siteContent'
 import { designDensityPost } from './design-density'
 import { githubPagesRoutingPost } from './github-pages-routing'
@@ -5,6 +6,7 @@ import { introCpythonPost } from './intro-cpython'
 import { reactRenderingNotesPost } from './react-rendering-notes'
 
 const postPages = {
+  [componentExamplesPost.path]: componentExamplesPost,
   [introCpythonPost.path]: introCpythonPost,
   [reactRenderingNotesPost.path]: reactRenderingNotesPost,
   [designDensityPost.path]: designDensityPost,

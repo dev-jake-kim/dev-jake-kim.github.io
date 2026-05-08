@@ -19,6 +19,14 @@
   --text-strong: #0f172a;
   --text-muted: #475569;
   --text-subtle: #64748b;
+  --mono:
+    'SFMono-Regular',
+    'SF Mono',
+    'JetBrains Mono',
+    'Cascadia Code',
+    'Fira Code',
+    ui-monospace,
+    monospace;
 }
 
 * {
