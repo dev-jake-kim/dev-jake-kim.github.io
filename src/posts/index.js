@@ -3,11 +3,13 @@ import { postEntries } from '../data/siteContent'
 import { designDensityPost } from './design-density'
 import { githubPagesRoutingPost } from './github-pages-routing'
 import { introCpythonPost } from './intro-cpython'
+import { mogakco1Post } from './mogakco-1'
 import { reactRenderingNotesPost } from './react-rendering-notes'
 
 const postPages = {
   [componentExamplesPost.path]: componentExamplesPost,
   [introCpythonPost.path]: introCpythonPost,
+  [mogakco1Post.path]: mogakco1Post,
   [reactRenderingNotesPost.path]: reactRenderingNotesPost,
   [designDensityPost.path]: designDensityPost,
   [githubPagesRoutingPost.path]: githubPagesRoutingPost,

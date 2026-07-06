@@ -1,5 +1,9 @@
 export const postEntries = [
   {
+    publishedAt: '2026-07-04T16:00',
+    path: '/모각코/모각코 1회차',
+  },
+  {
     publishedAt: '2026-05-09',
     path: '/Docs/포스트 컴포넌트 예시',
   },
